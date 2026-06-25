@@ -41,11 +41,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
+For my project, I chose to build an optical character recognizer. This project uses a Raspberry Pi and a camera to detect characters using open computer vision. I plan to build it by programming the Raspberry Pi to detect characters by training it with many different images. This project uses many different parts, such as a Raspberry Pi, a Raspberry Pi camera, and a camera mount. These parts will be able to detect characters from images and convert them into data. My milestone was to run OpenCV, which is the software that I will be using to identify characters. So far, I've been able to run OpenCV and get my camera to work. But as of right now, I am currently training my camera and open computer vision to detect characters through images that were previously taken. I am hoping that by using this method of training, my project will be able to identify characters through live feed. I have faced many challenges but so far I think the biggest challenge that I will be facing is having the camera detect and identify different characters.
+
+<!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
+- An explanation about the different components of your project and how they will all integrate
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- What your plan is to complete your project -->
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 

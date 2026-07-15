@@ -29,11 +29,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+For my second milestone, I chose to train my OpenCV model for character recognition by using Tesseract. To do this, I mostly had to code a lot as I had to use many different methods, such as Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN). These two methods of detecting characters are very effective, as CNN scans images to pull out granular features from text, while LSTM uses the features that CNN found to determine the probability of the character it is. However, so far there have been numerous issues such as cpde mpt wprlomg pr being very inaccurate, but I fixed this issue by implementing many new lines of code that removed small noise or turning it to grayscale and many more lines. In the future, I plan to make my model more accurate and also make a camera mount for it by CADing it on Onshape.
+<!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone -->
 
 # First Milestone
 

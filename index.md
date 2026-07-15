@@ -78,12 +78,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Pi 4 4GB Starter Kit - 32GB | This item will be the brain of my project as it controls everything | $169.95 | <a href="https://www.canakit.com/raspberry-pi-camera-module-3.html?srsltid=AfmBOor8R9jnPHFYKcG6FvWtOc_ITs-oJDFJICfxrncMJ4pJTqhump5b"> Link </a> |
+| Raspberry Pi Camera Module 3 | The Raspberry Pi Camera is used to transfer the images into the Raspberry Pi as data | $26.95 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| D330 Wired Keyboard and Mouse | I used the Keyboard and mouse to code on my Raspberry Pi 4 | $5.44 | <a href="https://www.alibaba.com/product-detail/D330-Minimalist-Backlit-Wired-Keyboard-and_1601498895609.html"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+One of the best parts about GitHub is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)

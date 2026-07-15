@@ -60,16 +60,63 @@ For my first Milestone, I chose to run Open Computer Vision (OpenCV). Running Op
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
 
-void loop() {
-  // put your main code here, to run repeatedly:
+Kai Wen <kninjawen@gmail.com>
+2:34 PM (1 minute ago)
+to me
 
-}
+import cv2
+import os
+os.environ["QT_QPA_PLATFORM"] = "xcb"
+os.environ["QT_QPA_FONTDIR"] = "/usr/share/fonts"
+import pytesseract
+from pytesseract import Output
+from picamera2 import Picamera2
+
+
+cam = Picamera2()
+
+config = cam.create_still_configuration(main={"size": (1280, 720), "format": "RGB888"})
+preview = cam.create_preview_configuration(main={"size": (640, 480), "format": "RGB888"})
+cam.start()
+
+boxes = []
+frame_count = 0
+OCR_EVERY = 5
+
+
+
+while True:
+    image = cam.capture_array()
+    frame_count+=1
+    if frame_count%OCR_EVERY == 0:
+        gray=cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        big=cv2.resize(gray, (0, 0), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+        _, thresh = cv2.threshold(big, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
+        data=pytesseract.image_to_data(thresh,output_type=Output.DICT)
+
+        boxes=[]
+
+        for i in range(len(data['text'])):
+            word = data['text'][i].strip()
+            conf = int(data['conf'][i])
+            if word != "" and conf > 60:
+                boxes.append((data['left'][i], data['top'][i],
+                              data['width'][i], data['height'][i], word))
+
+    # Draw the most recent boxes on EVERY frame so video stays smooth
+    for (x, y, w, h, word) in boxes:
+        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        cv2.putText(image, word, (x, y - 6),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
+
+    cv2.imshow("Live OCR", image)
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord("q"):
+        break
+
+cv2.destroyAllWindows()
+cam.stop()
 ```
 
 # Bill of Materials

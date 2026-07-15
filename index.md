@@ -27,9 +27,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MqPY_xWv1pA?si=goZER8Xh_Jt5HtLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my second milestone, I chose to train my OpenCV model for character recognition by using Tesseract. To do this, I mostly had to code a lot as I had to use many different methods, such as Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN). These two methods of detecting characters are very effective, as CNN scans images to pull out granular features from text, while LSTM uses the features that CNN found to determine the probability of the character it is. However, so far there have been numerous issues such as cpde mpt wprlomg pr being very inaccurate, but I fixed this issue by implementing many new lines of code that removed small noise or turning it to grayscale and many more lines. In the future, I plan to make my model more accurate and also make a camera mount for it by CADing it on Onshape.
+For my second milestone, I chose to train my OpenCV model for character recognition by using Tesseract. To do this, I mostly had to code a lot as I had to use many different methods, such as Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN). These two methods of detecting characters are very effective: CNN scans images to extract granular features from text, while LSTM uses the features CNN finds to determine the probability that a character is that character. However, so far, there have been numerous issues, such as code not working or being very inaccurate. I fixed this by implementing many new lines of code that removed small noise, converted it to grayscale, and more. In the future, I plan to make my model more accurate and also make a camera mount for it by CADing it on Onshape.
+
 <!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
@@ -40,7 +41,7 @@ For my second milestone, I chose to train my OpenCV model for character recognit
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uxmxYlVnqRc?si=lcJQc23d2rBDoe5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my first Milestone, I chose to run Open Computer Vision (OpenCV). Running OpenCV requires a Raspberry Pi and a Raspberry Pi Camera. Using these 2 parts, I was able to get my Raspberry Pi to run on a monitor. However, to run OpenCV, I still need to code a bit. I would say that this was one of the most difficult parts of this milestone. But in the end, I was able to find out how to run it. Currently, I am training my program to recognize numbers through pictures. I am hoping that in the future, I can increase the accuracy and also be able to use a live feed and have it recognize numbers and letters.
 

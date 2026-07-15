@@ -131,7 +131,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Other Resources/Examples
 One of the best parts about GitHub is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Improving OCR accuracy](https://stackoverflow.com/questions/77663131/improving-ocr-accuracy)
+- [OCR training](https://stackoverflow.com/questions/77663131/improving-ocr-accuracy)
 - [Improving OCR accuracy](https://stackoverflow.com/questions/60338024/how-to-improve-ocr-accuracy?rq=3)
 
 To watch the BSE tutorial on how to create a portfolio, click here.

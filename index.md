@@ -111,6 +111,7 @@ cam.stop()
 ```
 
 # Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Pi 4 4GB Starter Kit - 32GB | This item will be the brain of my project as it controls everything | $169.95 | <a href="https://www.canakit.com/raspberry-pi-camera-module-3.html?srsltid=AfmBOor8R9jnPHFYKcG6FvWtOc_ITs-oJDFJICfxrncMJ4pJTqhump5b"> Link </a> |

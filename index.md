@@ -110,7 +110,7 @@ cv2.destroyAllWindows()
 cam.stop()
 ```
 
-# Bill of Materials testing
+# Bill of Materials 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|

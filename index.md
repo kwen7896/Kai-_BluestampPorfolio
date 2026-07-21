@@ -15,10 +15,12 @@ This summer I decided to try to build the Character Recognition Project. This pr
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+For my final milestone, I decided to improve my model and also CAD a 3D-printed object that will hold the camera. In order to improve my model I had to do numerous things
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learne\d about
+- A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
 
@@ -27,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MqPY_xWv1pA?si=goZER8Xh_Jt5HtLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my second milestone, I chose to train my OpenCV model for character recognition by using Tesseract. To do this, I mostly had to code a lot as I had to use many different methods, such as Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN). These two methods of detecting characters are very effective: CNN scans images to waextract granular features from text, while LSTM uses the features CNN finds to determine the probability that a character is that character. However, so far, there have been numerous issues, such as code not working or being very inaccurate. I fixed this by implementing many new lines of code that removed small noise, converted it to grayscale, and more. In the future, I plan to make my model more accurate and also make a camera mount for it by CADing it on Onshape.
+For my second milestone, I chose to train my OpenCV model for character recognition by using Tesseract. To do this, I had to code extensively, using various methods such as Long Short-Term Memory (LSTM) and Convolutional Neural Networks (CNNs). These two methods of detecting characters are very effective: CNN scans images to extract granular features from text, while LSTM uses the features CNN finds to determine the probability that a character is that character. However, so far, there have been numerous issues, such as code not working or being very inaccurate. I fixed this by implementing many new lines of code that removed small noise, converted it to grayscale, and more. In the future, I plan to make my model more accurate and also design a camera mount for it in Onshape.
 
 <!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -114,9 +116,9 @@ cam.stop()
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Pi 4 4GB Starter Kit - 32GB | This item will be the brain of my project as it controls everything | $169.95 | <a href="https://www.canakit.com/raspberry-pi-camera-module-3.html?srsltid=AfmBOor8R9jnPHFYKcG6FvWtOc_ITs-oJDFJICfxrncMJ4pJTqhump5b"> Link </a> |
+| Pi 4 4GB Starter Kit - 32GB | This item will be the brain of my project as it controls everything | $119.00 | <a href="https://www.canakit.com/raspberry-pi-camera-module-3.html?srsltid=AfmBOor8R9jnPHFYKcG6FvWtOc_ITs-oJDFJICfxrncMJ4pJTqhump5b"> Link </a> |
 | Raspberry Pi Camera Module 3 | The Raspberry Pi Camera is used to transfer the images into the Raspberry Pi as data | $26.95 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| D330 Wired Keyboard and Mouse | I used the Keyboard and mouse to code on my Raspberry Pi 4 | $5.44 | <a href="https://www.alibaba.com/product-detail/D330-Minimalist-Backlit-Wired-Keyboard-and_1601498895609.html"> Link </a> |
+| D330 Wired Keyboard and Mouse | I used the Keyboard and mouse to code on my Raspberry Pi 4 | $16.00 | <a href="https://www.alibaba.com/product-detail/D330-Minimalist-Backlit-Wired-Keyboard-and_1601498895609.html"> Link </a> |
 
 # Other Resources/Examples
 - [OCR training](https://stackoverflow.com/questions/77663131/improving-ocr-accuracy)
